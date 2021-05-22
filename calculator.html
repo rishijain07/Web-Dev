@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <script>
+        var x,a,b,c;
+        x = parseInt(prompt("enter the number !!\n1 : addttion\n 2 : subtraction \n3 : multiplication\n4 : division"));
+        switch (x) {
+            case 1: {
+                a =parseInt (prompt("enter num"));
+                b =parseInt (prompt("enter num"));
+                c=a+b;
+                console.log(c);
+                break;
+            }
+            case 2:{
+                a =parseInt (prompt("enter num"));
+                b =parseInt (prompt("enter num"));
+                c=a-b;
+                console.log(c);
+                break;
+            }
+            case 3 : {
+                a =parseInt (prompt("enter num"));
+                b =parseInt (prompt("enter num"));
+                c=a*b;
+                console.log(c);
+                break;
+            }
+            case 4: {
+                a =parseInt (prompt("enter num"));
+                b =parseInt (prompt("enter num"));
+                c=a/b;
+                console.log(c);
+                break;
+            }
+            default:{ console.log("improper number");
+                break;
+            }
+            
+        }
+    </script>
+    <h1 style="text-align: center;font-family: cursive; color: aqua;"> Basic Calculator</h1>
+    <h1 style="text-align: center;"> Open The console to see the answer</h1>
+</body>
+</html>
